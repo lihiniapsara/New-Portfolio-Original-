@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3463bd06-528a-4887-b402-b1d247e39952" name="Changes" comment="New Contact section">
-      <change afterPath="$PROJECT_DIR$/home.css" afterDir="false" />
+    <list default="true" id="3463bd06-528a-4887-b402-b1d247e39952" name="Changes" comment="Update Header and Footer">
+      <change afterPath="$PROJECT_DIR$/Lihini CV.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contact.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +56,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\New_Portfolio_Original" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\New_Portfolio_Original" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -64,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725897646711</updated>
-      <workItem from="1725897647812" duration="6367000" />
+      <workItem from="1725897647812" duration="12532000" />
     </task>
     <task id="LOCAL-00001" summary="Home section">
       <option name="closed" value="true" />
@@ -146,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725904726514</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Update Header and Footer">
+      <option name="closed" value="true" />
+      <created>1725941401765</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1725941401765</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +175,7 @@
     <MESSAGE value="New Resume section" />
     <MESSAGE value="Projects section" />
     <MESSAGE value="New Contact section" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Contact section" />
+    <MESSAGE value="Update Header and Footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Header and Footer" />
   </component>
 </project>
