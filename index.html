@@ -5,17 +5,18 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="header_footer.css">
-    <link rel="stylesheet" href="contact.css">
-    <link rel="stylesheet" href="about.css">
-    <link rel="stylesheet" href="resume.css">
+    <link rel="stylesheet" href="CSS/header_footer.css">
+    <link rel="stylesheet" href="CSS/contact.css">
+    <link rel="stylesheet" href="CSS/about.css">
+    <link rel="stylesheet" href="CSS/resume.css">
+    <link rel="stylesheet" href="CSS/project.css">
 
 
 </head>
 <body>
 <header>
     <nav>
-        <img src=".idea/image/new.png" width="50" height="50">
+        <img src="image/new.png" width="50" height="50">
         <div class="logo">Portfolio</div>
         <ul class="nav-links">
             <li><a href="#home"><i class="fa fa-home" style="margin-right: 5px;"></i>Home</a> </li>
@@ -35,7 +36,7 @@
 </header>
 
 <section id="home" class="hero-section">
-    <img src=".idea/image/profile2.png" alt="Lihini Apsara">
+    <img src="image/profile2.png" alt="Lihini Apsara">
     <h3>Hello, I'm</h3>
     <h1>Lihini Apsara</h1>
     <h3>And I'm a <span style="color: #FFD700;">Web Developer</span></h3>
@@ -46,7 +47,7 @@
 <section id="about">
     <h2>About Me</h2>
     <div class="profile">
-        <img src=".idea/image/profile2.png" alt="Lihini Apsara">
+        <img src="image/profile2.png" alt="Lihini Apsara">
         <h1>Lihini Apsara</h1>
         <h3>UX UI Designer</h3>
         <p>
@@ -63,96 +64,168 @@
 <section id="resume">
     <h1>Resume</h1>
 
+    <section>
+        <section id="education">
+            <h3>Education</h3>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>Software Engineering Diploma</h4>
+                        <p>2023, IJSE</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>Web Design for Beginners E-Certificate</h4>
+                        <p>2024, UOM</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>Certificate In Computer Application</h4>
+                        <p>2022, IDEAL Institute</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>Certificate In Professional English Course</h4>
+                        <p>2023, NYSC</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>Python for Beginner</h4>
+                        <p>2024, UOM</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>Artificial Intelligence (AI) for Social Impact</h4>
+                        <p>2024, ADBI Institute</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <section id="education">
-        <h3>Education</h3>
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h4>Software Engineering Diploma</h4>
-                    <p>2023, IJSE</p>
+        <section id="skills">
+            <h3>Skills</h3>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <h4><i class="fas fa-code" style="margin-right: 5px"></i>Programming Skills</h4>
+                    <ul id="img_list">
+                        <li><img src="image/css.png" width="50"></li>
+                        <li><img src="image/html.png" width="50"></li>
+                        <li><img src="image/java.png" width="50"></li>
+                        <li><img src="image/java-script.png" width="50"></li>
+                        <li><img src="image/php.png" width="50"></li>
+                        <li><img src="image/python.png" width="50"></li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Designing Skills</h3>
+                    <ul>
+                        <li>Figma <span class="progress">90%</span></li>
+                        <li>Adobe Photoshop <span class="progress">20%</span></li>
+                    </ul>
                 </div>
             </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h4>Web Design for Beginners E-Certificate</h4>
-                    <p>2024, UOM</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h4>Certificate In Computer Application</h4>
-                    <p>2022, IDEAL Institute</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h4>Certificate In Professional English Course</h4>
-                    <p>2023, NYSC</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h4>Python for Beginner</h4>
-                    <p>2024, UOM</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h4>Artificial Intelligence (AI) for Social Impact</h4>
-                    <p>2024, ADBI Institute</p>
-                </div>
-            </div>
-        </div>
+        </section>
     </section>
 
-    <section id="skills">
-        <h3>Skills</h3>
-        <div class="skills-container">
-            <div class="skill-card">
-                <h4><i class="fas fa-code" style="margin-right: 5px"></i>Programming Skills</h4>
-                <ul id="img_list">
-                    <li><img src=".idea/image/css.png" width="50"></li>
-                    <li><img src=".idea/image/html.png" width="50"></li>
-                    <li><img src=".idea/image/java.png" width="50"></li>
-                    <li><img src=".idea/image/java-script.png" width="50"></li>
-                    <li><img src=".idea/image/php.png" width="50"></li>
-                    <li><img src=".idea/image/python.png" width="50"></li>
-                </ul>
-            </div>
-            <div class="skill-card">
-                <i class="fas fa-paint-brush"></i>
-                <h3>Designing Skills</h3>
-                <ul>
-                    <li>Figma <span class="progress">90%</span></li>
-                    <li>Adobe Photoshop <span class="progress">20%</span></li>
-                </ul>
-            </div>
-        </div>
-    </section>
 
 </section>
 
 <section id="projects">
-    <h2>Our Projects</h2>
-    <ul>
-        <li>KPI Industry (MVC)</li>
-        <li>KPI Industry (Layerd)</li>
-        <li>OOP Game Portfolio</li>
-    </ul>
-</section>
-
-
-<section id="activity">
     <h2>Projects</h2>
     <div class="projects-container">
         <div class="project-item">
+            <h3>KPI Industry (MVC)</h3>
+            <p>Overview: Created an MVC-based web application to manage user data efficiently.
+
+                <br>
+                <br>Technologies Used: ASP.NET MVC, C#, SQL Server
+
+                <br>
+                <br>Outcome: Improved data management and user experience, leading to higher user engagement.</p><br>
+            <a href="https://github.com/lihiniapsara/KPI_NEW_FINAL_PROJECT" class="btn">View Project</a>
+        </div>
+        <div class="project-item">
+            <h3>KPI Industry (Layerd)</h3>
+            <p>Overview: Developed a layered architecture project
+                to enhance system scalability and
+                maintainability.
+
+                <br>
+                <br>Technologies Used: Java, Spring Framework, MySQL
+
+                <br>
+                <br>Outcome: Successfully implemented a scalable
+                solution that simplified future maintenance
+                and  updates.</p><br>
+            <a href="https://github.com/lihiniapsara/Layered-Architecture-Project" class="btn">View Project</a>
+        </div>
+        <div class="project-item">
+            <h3>OOP Game</h3>
+            <p>Overview: Developed an object-oriented programming OOP) game to provide an interactive and engaging user experience.
+
+                <br>
+                <br>Technologies Used: Java, JavaFX
+
+                <br>
+                <br>Outcome: Created a highly modular and maintainable game that received positive feedback for its  design and functionality.</p><br>
+            <a href="https://github.com/lihiniapsara/connect-four-game-assignment" class="btn">View Project</a>
+        </div>
+        <div class="project-item">
+            <h3>Snake Game</h3>
+            <p>Overview: Developed an object-oriented programming (OOP) Snake game to provide a classic yet engaging user experience. The game was designed to be both enjoyable and challenging, with a focus on smooth gameplay and intuitive controls.
+
+                <br>
+                <br>Technologies Used: Python
+
+                <br>
+                <br> Outcome: Created a highly modular and maintainable game that received positive feedback for its smooth performance, simple yet appealing design, and nostalgic gameplay experience.</p><br>
+            <a href="https://github.com/lihiniapsara/snake_game" class="btn">View Project</a>
+        </div>
+        <div class="project-item">
+            <h3>Simple Calculator</h3>
+            <p>Overview: Developed a fully responsive, web-based calculator to perform basic arithmetic operations. The calculator features a clean and intuitive interface, providing a seamless user experience across different devices.
+
+                <br>
+                <br>Technologies Used: HTML, CSS
+
+                <br>
+                <br>Outcome: Created a functional and visually appealing calculator that was praised for its simplicity, ease of use, and cross-device compatibility. The design follows modern web standards, ensuring both performance and accessibility.</p><br>
+            <a href="https://github.com/lihiniapsara/calculator" class="btn">View Project</a>
+        </div>
+        <div class="project-item">
+            <h3>Portfolio</h3>
+            <p>Overview: Created a personal portfolio to showcase my projects and skills.
+
+                <br>
+                <br>Technologies Used: HTML, CSS, JavaScript
+
+                <br>
+                <br>Outcome: Successfully attracted several freelance clients.</p><br>
+            <a href="https://github.com/lihiniapsara/NEW_Port" class="btn">View Project</a>
+        </div>
+
+    </div>
+</section>
+
+
+
+<section id="activity">
+    <h2>Activities</h2>
+<!--
+    <div class="activity-container">
+        <div class="activity-item">
             <h3>KPI Industry (MVC)</h3>
             <p>Overview: Created an MVC-based web application to manage user data efficiently.
 
@@ -161,7 +234,7 @@
                 Outcome: Improved data management and user experience, leading to higher user engagement.</p>
             <a href="https://github.com/lihiniapsara/KPI_NEW_FINAL_PROJECT" class="btn">View Project</a>
         </div>
-        <div class="project-item">
+        <div class="activity-item">
             <h3>KPI Industry (Layerd)</h3>
             <p>Overview: Developed a layered architecture project
                 to enhance system scalability and
@@ -174,7 +247,7 @@
                 and  updates.</p>
             <a href="https://github.com/lihiniapsara/Layered-Architecture-Project" class="btn">View Project</a>
         </div>
-        <div class="project-item">
+        <div class="activity-item">
             <h3>OOP Game</h3>
             <p>Overview: Developed an object-oriented programming OOP) game to provide an interactive and engaging user experience.
 
@@ -183,7 +256,7 @@
                 Outcome: Created a highly modular and maintainable game that received positive feedback for its  design and functionality.</p>
             <a href="https://github.com/lihiniapsara/connect-four-game-assignment" class="btn">View Project</a>
         </div>
-        <div class="project-item">
+        <div class="activity-item">
             <h3>Snake Game</h3>
             <p>Overview:
                 Developed an object-oriented programming (OOP) Snake game to provide a classic yet engaging user experience. The game was designed to be both enjoyable and challenging, with a focus on smooth gameplay and intuitive controls.
@@ -195,7 +268,7 @@
                 Created a highly modular and maintainable game that received positive feedback for its smooth performance, simple yet appealing design, and nostalgic gameplay experience.</p>
             <a href="https://github.com/lihiniapsara/snake_game" class="btn">View Project</a>
         </div>
-        <div class="project-item">
+        <div class="activity-item">
             <h3>Simple Calculator</h3>
             <p>Overview:
                 Developed a fully responsive, web-based calculator to perform basic arithmetic operations. The calculator features a clean and intuitive interface, providing a seamless user experience across different devices.
@@ -207,7 +280,7 @@
                 Created a functional and visually appealing calculator that was praised for its simplicity, ease of use, and cross-device compatibility. The design follows modern web standards, ensuring both performance and accessibility.</p>
             <a href="https://github.com/lihiniapsara/calculator" class="btn">View Project</a>
         </div>
-        <div class="project-item">
+        <div class="activity-item">
             <h3>Portfolio</h3>
             <p>OOverview: Created a personal portfolio to showcase my projects and skills.
 
@@ -218,6 +291,7 @@
         </div>
 
     </div>
+-->
 </section>
 
 <main id="contact">
@@ -228,7 +302,7 @@
     <br>
     <br>
     <section id="image">
-        <img src=".idea/image/chat.jpg">
+        <img src="image/chat.jpg">
     </section>
     <section>
         <form action="#" method="POST">

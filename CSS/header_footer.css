@@ -5,11 +5,19 @@
 }
 
 body{
-    background: #121212;
+    background: #1c1c1c;
     color: #fff;
     scroll-behavior: smooth;
 }
 
+.btn {
+    background: #FFD700;
+    color: #121212;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
 header{
     background: #1c1c1c;
     padding: 20px;

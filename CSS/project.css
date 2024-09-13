@@ -1,0 +1,46 @@
+#projects {
+    padding: 60px 20px;
+    background: #121212;
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-item {
+    background: #1c1c1c;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    color: #fff;
+}
+
+.project-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: #FFD700;
+}
+
+.project-item p {
+    font-size: 1em;
+    margin-bottom: 15px;
+    color: #ccc;
+}
+
+.btn{
+    margin-top: 15px;
+}
