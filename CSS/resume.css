@@ -19,13 +19,25 @@
 
 #skills h3 {
     font-size: 1.5em;
-    margin-bottom: 40px;
     color: #FFD700;
 }
 #skills  h4{
      font-size: 1em;
+    margin-bottom: 40px;
 
  }
+#img_list1{
+    list-style-type: none;
+}
+#img_list2{
+    list-style-type: none;
+}
+
+.skills-container{
+
+}
+
+
 
 .timeline {
     position: relative;
