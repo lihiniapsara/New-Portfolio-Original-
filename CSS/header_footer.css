@@ -63,6 +63,9 @@ nav {
     margin-right: 10px;
     */
 }
+.nav-links i{
+    margin-right: 5px;
+}
 
 .nav-links a:hover {
     font-size: 15px;
@@ -112,4 +115,31 @@ footer .social-icons a {
 
 footer .social-icons a:hover {
     color: #FFD700;
+}
+
+
+@media all and (max-width: 768px) {
+    .logo {
+        font-size: 1.5em;
+        margin-left: -68px;
+    }
+    nav img{
+        visibility: hidden
+    }
+    .nav-links li {
+        width: 5rem;
+        margin: 0 4px;
+    }
+
+    .nav-links a {
+        color: #fff;
+        font-size: 0.9em;
+        transition: color 0.3s;
+        /*
+        margin-right: 10px;
+        */
+    }
+    .nav-links{
+        margin-left: 74px;
+    }
 }
