@@ -131,7 +131,7 @@ footer .social-icons a:hover {
         margin: 0 4px;
     }
 
-    .nav-links a {
+  header nav .nav-links a {
         color: #fff;
         font-size: 0.9em;
         transition: color 0.3s;
