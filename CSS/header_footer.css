@@ -8,6 +8,8 @@ body{
     background: #1c1c1c;
     color: #fff;
     scroll-behavior: smooth;
+    overflow-x: hidden;
+
 }
 
 .btn {
