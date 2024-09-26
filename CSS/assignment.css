@@ -1,0 +1,15 @@
+#assignment div img{
+    width: 20vw;
+    aspect-ratio: 1/0.7;
+}
+#assignment div{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px;
+}
+#assignment h2{
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 70px;
+    margin-top: 55px;
+}
