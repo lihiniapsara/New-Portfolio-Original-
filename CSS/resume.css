@@ -24,7 +24,6 @@
 #skills h3 {
     font-size: 1.5em;
     color: #FFD700;
-    margin-left: 256px;
     margin-bottom: 46px;
 }
 #skills  h4{
@@ -50,9 +49,7 @@
 #img_list3{
     list-style-type: none;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-
+    margin-top: 50px;
 }
 
 
@@ -64,6 +61,7 @@
     margin-top: 20px;
     margin-bottom: 40px;
     border-left: 2px solid #FFD700;
+
 }
 
 .timeline-item {
@@ -102,8 +100,28 @@
     font-size: 0.8em;
     color: #ccc;
 }
+#img_list3 li:first-child{
+    margin-left: 197px;
+}
 
+#img_list3 li:last-child{
+    margin-left: 38px;
+}
+
+#img_list3 li:nth-child(2){
+    margin-top: 80px;
+    margin-left: 50px;
+}
+/*
 #resume section:nth-child(2){
     display: grid;
     grid-template-columns: repeat(2 , 1fr);
+}*/
+
+#aa{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
 }
+#skill-card2{
+}
+
