@@ -15,10 +15,17 @@
     margin-bottom: 40px;
     color: #FFD700;
 }
+ #skills{
+     padding: 60px 20px;
+     background: #1c1c1c;
+     text-align: center;
+ }
 
 #skills h3 {
     font-size: 1.5em;
     color: #FFD700;
+    margin-left: 256px;
+    margin-bottom: 46px;
 }
 #skills  h4{
      font-size: 1em;
@@ -27,14 +34,27 @@
  }
 #img_list1{
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
 }
 #img_list2{
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
 }
 
-.skills-container{
+#img_list3{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 
 }
+
 
 
 

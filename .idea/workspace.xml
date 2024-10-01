@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3463bd06-528a-4887-b402-b1d247e39952" name="Changes" comment="Tab size home">
+    <list default="true" id="3463bd06-528a-4887-b402-b1d247e39952" name="Changes" comment="Add Assignment in CSS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/header_footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/header_footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/resume.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/resume.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +46,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Pos-system- Assigment 6&amp;7&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/LIHINI/IdeaProjects/database-programming-4/New-Portfolio-Original-/image&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -59,6 +58,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LIHINI\IdeaProjects\database-programming-4\New-Portfolio-Original-\image" />
       <recent name="D:\New_Portfolio_Original" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -80,6 +80,8 @@
       <workItem from="1726727256083" duration="4156000" />
       <workItem from="1726740394763" duration="3454000" />
       <workItem from="1726819171853" duration="2365000" />
+      <workItem from="1727280582831" duration="12068000" />
+      <workItem from="1727532575318" duration="433000" />
     </task>
     <task id="LOCAL-00001" summary="Home section">
       <option name="closed" value="true" />
@@ -231,7 +233,39 @@
       <option name="project" value="LOCAL" />
       <updated>1726742539411</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Tab size contact">
+      <option name="closed" value="true" />
+      <created>1727281095217</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1727281095217</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Tab size contact">
+      <option name="closed" value="true" />
+      <created>1727281204966</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1727281204966</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Add Assignment">
+      <option name="closed" value="true" />
+      <created>1727283741203</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1727283741204</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Add Assignment in CSS">
+      <option name="closed" value="true" />
+      <created>1727338687067</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1727338687068</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +289,9 @@
     <MESSAGE value="Final Home CSS" />
     <MESSAGE value="Tab size header and footer" />
     <MESSAGE value="Tab size home" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tab size home" />
+    <MESSAGE value="Tab size contact" />
+    <MESSAGE value="Add Assignment" />
+    <MESSAGE value="Add Assignment in CSS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Assignment in CSS" />
   </component>
 </project>
