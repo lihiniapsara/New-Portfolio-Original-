@@ -141,5 +141,7 @@ footer .social-icons a:hover {
     }
     .nav-links{
         margin-left: 74px;
+        width: 100%;
+
     }
 }

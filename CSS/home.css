@@ -63,3 +63,7 @@
         font-size: 3.5em;
     }
 }
+
+@media all and (max-width: 425px){
+
+}

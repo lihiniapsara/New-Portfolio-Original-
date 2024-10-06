@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3463bd06-528a-4887-b402-b1d247e39952" name="Changes" comment="Add Assignment in CSS">
+    <list default="true" id="3463bd06-528a-4887-b402-b1d247e39952" name="Changes" comment="All Section Tab Size">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/resume.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/resume.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/header_footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/header_footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +48,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/LIHINI/IdeaProjects/database-programming-4/New-Portfolio-Original-/image&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -82,6 +84,11 @@
       <workItem from="1726819171853" duration="2365000" />
       <workItem from="1727280582831" duration="12068000" />
       <workItem from="1727532575318" duration="433000" />
+      <workItem from="1727758767711" duration="11956000" />
+      <workItem from="1727776644829" duration="5965000" />
+      <workItem from="1727852355534" duration="2558000" />
+      <workItem from="1728098238793" duration="211000" />
+      <workItem from="1728120437399" duration="3172000" />
     </task>
     <task id="LOCAL-00001" summary="Home section">
       <option name="closed" value="true" />
@@ -265,7 +272,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727338687068</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Update Resume Section">
+      <option name="closed" value="true" />
+      <created>1727762857839</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1727762857840</updated>
+    </task>
+    <task id="LOCAL-00025" summary="All Section Tab Size">
+      <option name="closed" value="true" />
+      <created>1727776164807</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1727776164807</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,6 +315,8 @@
     <MESSAGE value="Tab size contact" />
     <MESSAGE value="Add Assignment" />
     <MESSAGE value="Add Assignment in CSS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Assignment in CSS" />
+    <MESSAGE value="Update Resume Section" />
+    <MESSAGE value="All Section Tab Size" />
+    <option name="LAST_COMMIT_MESSAGE" value="All Section Tab Size" />
   </component>
 </project>

@@ -75,9 +75,10 @@
 }
 
 @media all and (max-width: 768px){
-    #image img{
+    #contact-image img{
         display: none;
     }
+
     #detail{
         margin-right: 0px;
     }
@@ -88,4 +89,8 @@
     #contact h1 {
     margin-left: -6px;
     }
+
+  /*  html{
+        font-size: 75%;
+    }*/
 }
