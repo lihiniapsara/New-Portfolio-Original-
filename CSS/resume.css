@@ -27,16 +27,16 @@
     margin-bottom: 46px;
 }
 #skills  h4{
-     font-size: 1em;
+    font-size: 1em;
     margin-bottom: 40px;
-
- }
+    color: white;
+}
 #img_list1{
     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
+    overflow: hidden;
 }
 #img_list2{
     list-style-type: none;
@@ -52,15 +52,13 @@
     margin-top: 50px;
 }
 
-
-
-
 .timeline {
     position: relative;
     padding-left: 40px;
     margin-top: 20px;
     margin-bottom: 40px;
     border-left: 2px solid #FFD700;
+    z-index: 1;
 
 }
 
@@ -118,11 +116,9 @@
     grid-template-columns: repeat(2 , 1fr);
 }*/
 
-#aa{
+#aa {
     display: grid;
-    grid-template-columns: repeat(2 , 1fr);
-}
-#skill-card2{
+    grid-template-columns: repeat(2, 1fr);
 }
 
 /* For Laptop */
@@ -199,115 +195,14 @@
     }
 }
 
-/* For Mobile Large (425px) */
+@media all and (max-width: 655px){
+    #aa{
+        display: block;
+    }
+}
+
 @media all and (max-width: 425px) {
-    #resume h1 {
-        font-size: 1.8em;
-    }
-
-    #education h3, #skills h3 {
-        font-size: 1em;
-    }
-
-    .timeline-content h4 {
-        font-size: 0.8em;
-    }
-
-    .timeline-content p {
-        font-size: 0.6em;
-    }
-
     #aa {
-        grid-template-columns: 1fr;
-    }
-
-    #img_list1, #img_list2, #img_list3 {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #img_list3 li:first-child, #img_list3 li:last-child {
-        margin-left: 0;
-        margin-top: 20px;
-    }
-
-    #img_list3 li:nth-child(2) {
-        margin-top: 20px;
+        display: block;
     }
 }
-
-/* For Mobile Medium (375px) */
-@media all and (max-width: 375px) {
-    #resume h1 {
-        font-size: 1.6em;
-    }
-
-    #education h3, #skills h3 {
-        font-size: 0.9em;
-    }
-
-    .timeline-content h4 {
-        font-size: 0.75em;
-    }
-
-    .timeline-content p {
-        font-size: 0.55em;
-    }
-
-    #aa {
-        grid-template-columns: 1fr;
-    }
-
-    #img_list1, #img_list2, #img_list3 {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #img_list3 li:first-child, #img_list3 li:last-child {
-        margin-left: 0;
-        margin-top: 15px;
-    }
-
-    #img_list3 li:nth-child(2) {
-        margin-top: 15px;
-    }
-}
-
-/* For Mobile Small (320px) */
-@media all and (max-width: 320px) {
-    #resume h1 {
-        font-size: 1.4em;
-    }
-
-    #education h3, #skills h3 {
-        font-size: 0.8em;
-    }
-
-    .timeline-content h4 {
-        font-size: 0.7em;
-    }
-
-    .timeline-content p {
-        font-size: 0.5em;
-    }
-
-    #aa {
-        grid-template-columns: 1fr;
-    }
-
-    #img_list1, #img_list2, #img_list3 {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #img_list3 li:first-child, #img_list3 li:last-child {
-        margin-left: 0;
-        margin-top: 10px;
-    }
-
-    #img_list3 li:nth-child(2) {
-        margin-top: 10px;
-    }
-}
-
-
