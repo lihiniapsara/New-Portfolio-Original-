@@ -230,3 +230,41 @@
         font-size: 2em;
     }
 }
+
+
+@media (max-width: 425px) {
+    .greet {
+        font-size: 2.5em; /* Smaller font sizes */
+    }
+
+    .hero-section{
+        display: block;
+    }
+
+    .name {
+        font-size: 1.8em;
+    }
+
+    .designation {
+        font-size: 1.8em;
+        margin-bottom: 30px; /* Less margin */
+    }
+
+    .btn {
+        padding: 8px 20px; /* Smaller button size */
+    }
+
+    .hero-img {
+        width: 100%; /* Full width on mobile */
+        right: 0; /* Align to the left */
+    }
+
+    .back-img {
+        width: 200px; /* Adjust for smaller screen */
+        height: 200px;
+    }
+
+    .main-img {
+        width: 150px; /* Adjust for smaller screen */
+    }
+}
