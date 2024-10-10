@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3463bd06-528a-4887-b402-b1d247e39952" name="Changes" comment="Update Resyme(655px , 425px)" />
+    <list default="true" id="3463bd06-528a-4887-b402-b1d247e39952" name="Changes" comment="Update Contact(320px)">
+      <change beforePath="$PROJECT_DIR$/CSS/header_footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/header_footer.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +87,7 @@
       <workItem from="1728120437399" duration="4198000" />
       <workItem from="1728214946164" duration="2835000" />
       <workItem from="1728309937280" duration="599000" />
-      <workItem from="1728573966319" duration="3116000" />
+      <workItem from="1728573966319" duration="3548000" />
     </task>
     <task id="LOCAL-00001" summary="Home section">
       <option name="closed" value="true" />
@@ -413,18 +415,53 @@
       <option name="project" value="LOCAL" />
       <updated>1728577413505</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Update Contact(1024px)">
+      <option name="closed" value="true" />
+      <created>1728577698318</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1728577698318</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Update Contact(768px)">
+      <option name="closed" value="true" />
+      <created>1728577730232</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1728577730232</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Update Contact(425px)">
+      <option name="closed" value="true" />
+      <created>1728577762334</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1728577762334</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Update Contact(375px)">
+      <option name="closed" value="true" />
+      <created>1728577785576</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1728577785576</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Update Contact(320px)">
+      <option name="closed" value="true" />
+      <created>1728577809892</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1728577809892</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update About" />
-    <MESSAGE value="Add normalize" />
-    <MESSAGE value="Final Home CSS" />
-    <MESSAGE value="Tab size header and footer" />
-    <MESSAGE value="Tab size home" />
     <MESSAGE value="Tab size contact" />
     <MESSAGE value="Add Assignment" />
     <MESSAGE value="Add Assignment in CSS" />
@@ -445,6 +482,11 @@
     <MESSAGE value="Update About(320px)" />
     <MESSAGE value="Update About(365px)" />
     <MESSAGE value="Update Resyme(655px , 425px)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Resyme(655px , 425px)" />
+    <MESSAGE value="Update Contact(1024px)" />
+    <MESSAGE value="Update Contact(768px)" />
+    <MESSAGE value="Update Contact(425px)" />
+    <MESSAGE value="Update Contact(375px)" />
+    <MESSAGE value="Update Contact(320px)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Contact(320px)" />
   </component>
 </project>
