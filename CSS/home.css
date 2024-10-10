@@ -296,3 +296,31 @@
         width: 130px; /* Further adjust for 375px */
     }
 }
+
+@media (max-width: 320px) {
+    .greet {
+        font-size: 2em; /* Smaller font sizes */
+    }
+
+    .name {
+        font-size: 1.4em;
+    }
+
+    .designation {
+        font-size: 1.4em;
+        margin-bottom: 15px; /* Less margin */
+    }
+
+    .btn {
+        padding: 6px 12px; /* Smaller button size */
+    }
+
+    .back-img {
+        width: 160px; /* Further adjust for 320px */
+        height: 160px;
+    }
+
+    .main-img {
+        width: 120px; /* Further adjust for 320px */
+    }
+}
