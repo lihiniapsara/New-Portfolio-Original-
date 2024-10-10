@@ -152,6 +152,7 @@
     .buttons .btn {
         font-size: 0.85em;
         padding: 5px 12px;
+        width: 84px;
     }
 }
 

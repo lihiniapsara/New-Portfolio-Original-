@@ -121,42 +121,6 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
-/* For Laptop */
-@media all and (max-width: 1024px) {
-    #resume h1 {
-        font-size: 2.5em;
-    }
-
-    #education h3, #skills h3 {
-        font-size: 1.3em;
-    }
-
-    .timeline-content h4 {
-        font-size: 0.9em;
-    }
-
-    .timeline-content p {
-        font-size: 0.75em;
-    }
-
-    #img_list1, #img_list2, #img_list3 {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #img_list3 li:first-child {
-        margin-left: 0;
-    }
-
-    #img_list3 li:nth-child(2) {
-        margin-top: 40px;
-    }
-
-    #img_list3 li:last-child {
-        margin-left: 0;
-        margin-top: 40px;
-    }
-}
 
 /* For Tablet */
 @media all and (max-width: 768px) {
@@ -200,9 +164,30 @@
         display: block;
     }
 }
+@media all and (max-width: 770px) {
+    #aa {
+        display: block;
+    }
 
+    #img_list1, #img_list2, #img_list3 {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row; /* Align items horizontally */
+        justify-content: space-evenly; /* Center the items */
+        padding: 0;
+        margin: 0;
+    }
+
+    #img_list3{
+        margin-top: 20px;
+    }
+
+    #img_list1 li, #img_list2 li, #img_list3 li {
+        margin: 0 10px; /* Add space between the items */
+    }
 @media all and (max-width: 425px) {
     #aa {
         display: block;
     }
+}
 }
