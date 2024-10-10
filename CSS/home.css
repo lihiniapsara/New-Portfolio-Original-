@@ -204,3 +204,29 @@
         height: 400px;
     }
 }
+@media (max-width: 768px) {
+    .hero-img {
+        width: 90%; /* Make the image container full width */
+    }
+
+    .back-img {
+        width: 250px; /* Further adjust background image size */
+        height: 250px;
+    }
+
+    .main-img {
+        width: 180px; /* Further adjust main image size */
+    }
+
+    .greet {
+        font-size: 3em; /* Smaller font sizes */
+    }
+
+    .name {
+        font-size: 2em;
+    }
+
+    .designation {
+        font-size: 2em;
+    }
+}
