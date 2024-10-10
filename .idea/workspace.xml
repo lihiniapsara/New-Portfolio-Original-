@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3463bd06-528a-4887-b402-b1d247e39952" name="Changes" comment="Add img">
-      <change afterPath="$PROJECT_DIR$/image/me-removebg-preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/me.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/memphis-element-abstract-shape-design-free-png.webp" afterDir="false" />
+    <list default="true" id="3463bd06-528a-4887-b402-b1d247e39952" name="Changes" comment="Update Home(320px)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/header_footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/header_footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +90,7 @@
       <workItem from="1728120437399" duration="4198000" />
       <workItem from="1728214946164" duration="2835000" />
       <workItem from="1728309937280" duration="599000" />
-      <workItem from="1728573966319" duration="56000" />
+      <workItem from="1728573966319" duration="2414000" />
     </task>
     <task id="LOCAL-00001" summary="Home section">
       <option name="closed" value="true" />
@@ -330,21 +330,77 @@
       <option name="project" value="LOCAL" />
       <updated>1728574017787</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Update Header">
+      <option name="closed" value="true" />
+      <created>1728574185870</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1728574185870</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Update Home">
+      <option name="closed" value="true" />
+      <created>1728574345293</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1728574345293</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Update Home(1250px)">
+      <option name="closed" value="true" />
+      <created>1728574409404</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1728574409404</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Update Home(940px)">
+      <option name="closed" value="true" />
+      <created>1728574434739</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1728574434739</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Update Home(768px)">
+      <option name="closed" value="true" />
+      <created>1728574475753</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1728574475753</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Update Home(425px)">
+      <option name="closed" value="true" />
+      <created>1728574523399</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1728574523399</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Update Home(375px)">
+      <option name="closed" value="true" />
+      <created>1728574564377</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1728574564377</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Update Home(320px)">
+      <option name="closed" value="true" />
+      <created>1728574593791</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1728574593791</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="About section" />
-    <MESSAGE value="Resume section" />
-    <MESSAGE value="Activity section" />
-    <MESSAGE value="Contact section" />
-    <MESSAGE value="Footer section" />
-    <MESSAGE value="New Activity section" />
-    <MESSAGE value="New Resume section" />
-    <MESSAGE value="Projects section" />
     <MESSAGE value="New Contact section" />
     <MESSAGE value="Update Header and Footer" />
     <MESSAGE value="Update Contact" />
@@ -362,6 +418,14 @@
     <MESSAGE value="Update nav bar" />
     <MESSAGE value="Update hero section" />
     <MESSAGE value="Add img" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add img" />
+    <MESSAGE value="Update Header" />
+    <MESSAGE value="Update Home" />
+    <MESSAGE value="Update Home(1250px)" />
+    <MESSAGE value="Update Home(940px)" />
+    <MESSAGE value="Update Home(768px)" />
+    <MESSAGE value="Update Home(425px)" />
+    <MESSAGE value="Update Home(375px)" />
+    <MESSAGE value="Update Home(320px)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Home(320px)" />
   </component>
 </project>
