@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3463bd06-528a-4887-b402-b1d247e39952" name="Changes" comment="Update Home(320px)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/header_footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/header_footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="3463bd06-528a-4887-b402-b1d247e39952" name="Changes" comment="Update Resyme(655px , 425px)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +85,7 @@
       <workItem from="1728120437399" duration="4198000" />
       <workItem from="1728214946164" duration="2835000" />
       <workItem from="1728309937280" duration="599000" />
-      <workItem from="1728573966319" duration="2414000" />
+      <workItem from="1728573966319" duration="3116000" />
     </task>
     <task id="LOCAL-00001" summary="Home section">
       <option name="closed" value="true" />
@@ -394,16 +389,37 @@
       <option name="project" value="LOCAL" />
       <updated>1728574593791</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Update About(320px)">
+      <option name="closed" value="true" />
+      <created>1728577096021</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1728577096021</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Update About(365px)">
+      <option name="closed" value="true" />
+      <created>1728577142368</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1728577142368</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Update Resyme(655px , 425px)">
+      <option name="closed" value="true" />
+      <created>1728577413505</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1728577413505</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="New Contact section" />
-    <MESSAGE value="Update Header and Footer" />
-    <MESSAGE value="Update Contact" />
     <MESSAGE value="Update About" />
     <MESSAGE value="Add normalize" />
     <MESSAGE value="Final Home CSS" />
@@ -426,6 +442,9 @@
     <MESSAGE value="Update Home(425px)" />
     <MESSAGE value="Update Home(375px)" />
     <MESSAGE value="Update Home(320px)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Home(320px)" />
+    <MESSAGE value="Update About(320px)" />
+    <MESSAGE value="Update About(365px)" />
+    <MESSAGE value="Update Resyme(655px , 425px)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Resyme(655px , 425px)" />
   </component>
 </project>

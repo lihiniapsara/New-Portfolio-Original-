@@ -9,8 +9,13 @@
 
 #contact h1 {
     font-size: 2.5em;
-    margin-bottom: 20px;
-    margin-right: -600px;
+    margin-bottom: 82px;
+    color: white;
+    margin-right: -620px;
+}
+
+.image{
+    height: 381px;
 }
 
 #contact form {
@@ -18,13 +23,14 @@
     flex-direction: column;
     align-items: center;
     max-width: 500px;
-    margin-left: 150px;
+    margin: 0 auto; /* Centering form */
 
 }
 
-#contact form input {
-    width: 600px;
-    height: 39px;
+#contact form input,
+#contact form textarea {
+    width: 100%; /* Make input fields responsive */
+    max-width: 500px;
     padding: 15px;
     border: 1px solid #333;
     border-radius: 10px;
@@ -32,20 +38,10 @@
     background: #222;
     color: #fff;
     margin-bottom: 20px;
-
 }
-
 
 #contact form textarea {
-    width: 600px;
-    height: 300px;
-    padding: 15px;
-    border: 1px solid #333;
-    border-radius: 10px;
-    font-size: 1.2em;
-    background: #222;
-    color: #fff;
-    margin-bottom: 20px;
+    height: 200px; /* Adjust the textarea height */
 }
 
 #contact form .btn {
@@ -56,17 +52,12 @@
     border-radius: 50px;
     transition: background 0.3s;
     cursor: pointer;
-    width: 154px;
-    height: 57px;
+    width: 160px;
+    height: 48px;
     font-weight: bold;
-    font-size: 27px;
+    font-size: 1.2rem;
     text-align: center;
-    margin-left: 440px;
-}
-
-#contact h1{
-    font-size: 2em;
-    text-align: center;
+    margin-left: 20px;
 }
 
 #contact form .btn:hover {
@@ -74,140 +65,23 @@
     color: #fff;
 }
 
-@media all and (max-width: 768px){
-    #contact-image img{
-        display: none;
-    }
-
-    #detail{
-        margin-right: 0px;
-    }
+@media all and (max-width: 1024px) {
     #contact {
-        display: flex;
-        flex-direction: column;
-    }
-    #contact h1 {
-    margin-left: -6px;
-    }
-
-  /*  html{
-        font-size: 75%;
-    }*/
-}
-#contact {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 60px 20px;
-    background: #1c1c1c;
-    text-align: center;
-    align-items: center;
-    gap: 20px;
-}
-
-#contact h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    text-align: center;
-    color: #FFD700;
-}
-
-#contact-image img {
-    max-width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-}
-
-#contact form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-#contact form input,
-#contact form textarea {
-    width: 100%;
-    max-width: 600px;
-    padding: 15px;
-    border: 1px solid #333;
-    border-radius: 10px;
-    font-size: 1.2em;
-    background: #222;
-    color: #fff;
-    margin-bottom: 20px;
-}
-
-#contact form .btn {
-    background: #FFD700;
-    color: #121212;
-    padding: 15px 30px;
-    border-radius: 50px;
-    transition: background 0.3s;
-    cursor: pointer;
-    width: 100%;
-    max-width: 200px;
-    height: auto;
-    font-weight: bold;
-    font-size: 1.2em;
-    text-align: center;
-}
-
-#contact form .btn:hover {
-    background: #ff6347;
-    color: #fff;
-}
-
-/* Responsive Design for Tablets and Below */
-@media all and (max-width: 768px) {
-    #contact {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    #contact h1 {
-        margin-left: 0;
-        font-size: 2em;
+        grid-template-columns: 1fr; /* Set to one column */
+        padding: 50px 20px;
     }
 
     #contact form {
-        margin-left: 0;
-        padding: 0 20px;
+        max-width: 450px; /* Slightly reduce the form width */
     }
 
     #contact form input,
     #contact form textarea {
-        max-width: 100%;
-    }
-
-    #contact-image img {
-        display: none;
-    }
-
-    #contact form .btn {
-        margin: 0 auto;
-    }
-}
-
-/* Mobile Specific Adjustments (425px and below) */
-@media all and (max-width: 425px) {
-    #contact h1 {
-        font-size: 1.8em;
-    }
-
-    #contact form {
-        width: 100%;
-        padding: 0 10px;
-    }
-
-    #contact form input,
-    #contact form textarea {
-        font-size: 1em;
-    }
-
-    #contact form .btn {
-        width: 100%;
+        padding: 14px;
         font-size: 1.1em;
+    }
+
+    #contact h1 {
+        font-size: 2.2em; /* Slightly smaller heading */
     }
 }
