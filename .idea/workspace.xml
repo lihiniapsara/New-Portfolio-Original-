@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3463bd06-528a-4887-b402-b1d247e39952" name="Changes" comment="Update Contact(320px)">
-      <change beforePath="$PROJECT_DIR$/CSS/header_footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/header_footer.css" afterDir="false" />
+    <list default="true" id="3463bd06-528a-4887-b402-b1d247e39952" name="Changes" comment="Update header_footer.css(320px)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +89,7 @@
       <workItem from="1728120437399" duration="4198000" />
       <workItem from="1728214946164" duration="2835000" />
       <workItem from="1728309937280" duration="599000" />
-      <workItem from="1728573966319" duration="3548000" />
+      <workItem from="1728573966319" duration="4279000" />
     </task>
     <task id="LOCAL-00001" summary="Home section">
       <option name="closed" value="true" />
@@ -455,14 +457,21 @@
       <option name="project" value="LOCAL" />
       <updated>1728577809892</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Update header_footer.css(320px)">
+      <option name="closed" value="true" />
+      <created>1728578207021</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1728578207021</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Tab size contact" />
     <MESSAGE value="Add Assignment" />
     <MESSAGE value="Add Assignment in CSS" />
     <MESSAGE value="Update Resume Section" />
@@ -487,6 +496,7 @@
     <MESSAGE value="Update Contact(425px)" />
     <MESSAGE value="Update Contact(375px)" />
     <MESSAGE value="Update Contact(320px)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Contact(320px)" />
+    <MESSAGE value="Update header_footer.css(320px)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update header_footer.css(320px)" />
   </component>
 </project>

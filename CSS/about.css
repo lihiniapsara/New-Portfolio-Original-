@@ -126,6 +126,9 @@
         font-size: 0.9em;
         padding: 6px 15px;
     }
+    .hero{
+        margin-top: 40px;
+    }
 }
 
 @media all and (max-width: 375px) {
