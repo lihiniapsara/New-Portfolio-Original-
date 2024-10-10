@@ -144,3 +144,26 @@
     }
 }
 
+@media all and(max-width: 375px) {
+    #contact {
+        padding: 20px 10px;
+    }
+
+    #contact h1 {
+        font-size: 1.6em;
+    }
+
+    #contact form {
+        max-width: 320px; /* Reduce form width further */
+    }
+
+    #contact form input,
+    #contact form textarea {
+        padding: 10px;
+    }
+
+    #contact form .btn {
+        width: 120px;
+        font-size: 1rem;
+    }
+}
