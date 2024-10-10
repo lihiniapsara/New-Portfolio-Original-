@@ -268,3 +268,31 @@
         width: 150px; /* Adjust for smaller screen */
     }
 }
+
+@media (max-width: 375px) {
+    .greet {
+        font-size: 2.2em; /* Smaller font sizes */
+    }
+
+    .name {
+        font-size: 1.6em;
+    }
+
+    .designation {
+        font-size: 1.6em;
+        margin-bottom: 20px; /* Less margin */
+    }
+
+    .btn {
+        padding: 7px 15px; /* Smaller button size */
+    }
+
+    .back-img {
+        width: 180px; /* Further adjust for 375px */
+        height: 180px;
+    }
+
+    .main-img {
+        width: 130px; /* Further adjust for 375px */
+    }
+}
