@@ -44,3 +44,127 @@
 .btn{
     margin-top: 15px;
 }
+/* General Styles Already Defined */
+
+/* For Laptop (1024px and below) */
+@media all and (max-width: 1024px) {
+    #projects h2 {
+        font-size: 2em;
+    }
+
+    .projects-container {
+        gap: 15px;
+    }
+
+    .project-item {
+        max-width: 350px;
+        padding: 15px;
+    }
+
+    .project-item h3 {
+        font-size: 1.3em;
+    }
+
+    .project-item p {
+        font-size: 0.9em;
+    }
+}
+
+/* For Tablet (768px and below) */
+@media all and (max-width: 768px) {
+    #projects h2 {
+        font-size: 1.8em;
+        margin-bottom: 50px;
+    }
+
+    .projects-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-item {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    .project-item h3 {
+        font-size: 1.2em;
+    }
+
+    .project-item p {
+        font-size: 0.85em;
+    }
+}
+
+/* For Mobile Large (425px and below) */
+@media all and (max-width: 425px) {
+    #projects h2 {
+        font-size: 1.6em;
+        margin-bottom: 40px;
+    }
+
+    .project-item {
+        padding: 10px;
+        max-width: 100%;
+    }
+
+    .project-item h3 {
+        font-size: 1.1em;
+    }
+
+    .project-item p {
+        font-size: 0.8em;
+    }
+
+    .btn {
+        font-size: 0.9em;
+    }
+}
+
+/* For Mobile Medium (375px and below) */
+@media all and (max-width: 375px) {
+    #projects h2 {
+        font-size: 1.5em;
+        margin-bottom: 30px;
+    }
+
+    .project-item {
+        padding: 10px;
+    }
+
+    .project-item h3 {
+        font-size: 1em;
+    }
+
+    .project-item p {
+        font-size: 0.75em;
+    }
+
+    .btn {
+        font-size: 0.85em;
+    }
+}
+
+/* For Mobile Small (320px and below) */
+@media all and (max-width: 320px) {
+    #projects h2 {
+        font-size: 1.4em;
+        margin-bottom: 25px;
+    }
+
+    .project-item {
+        padding: 8px;
+    }
+
+    .project-item h3 {
+        font-size: 0.95em;
+    }
+
+    .project-item p {
+        font-size: 0.7em;
+    }
+
+    .btn {
+        font-size: 0.8em;
+    }
+}

@@ -125,3 +125,189 @@
 #skill-card2{
 }
 
+/* For Laptop */
+@media all and (max-width: 1024px) {
+    #resume h1 {
+        font-size: 2.5em;
+    }
+
+    #education h3, #skills h3 {
+        font-size: 1.3em;
+    }
+
+    .timeline-content h4 {
+        font-size: 0.9em;
+    }
+
+    .timeline-content p {
+        font-size: 0.75em;
+    }
+
+    #img_list1, #img_list2, #img_list3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #img_list3 li:first-child {
+        margin-left: 0;
+    }
+
+    #img_list3 li:nth-child(2) {
+        margin-top: 40px;
+    }
+
+    #img_list3 li:last-child {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+}
+
+/* For Tablet */
+@media all and (max-width: 768px) {
+    #resume h1 {
+        font-size: 2em;
+    }
+
+    #education h3, #skills h3 {
+        font-size: 1.1em;
+    }
+
+    .timeline-content h4 {
+        font-size: 0.85em;
+    }
+
+    .timeline-content p {
+        font-size: 0.7em;
+    }
+
+    #aa {
+        grid-template-columns: 1fr;
+    }
+
+    #img_list1, #img_list2, #img_list3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #img_list3 li:first-child, #img_list3 li:last-child {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    #img_list3 li:nth-child(2) {
+        margin-top: 20px;
+    }
+}
+
+/* For Mobile Large (425px) */
+@media all and (max-width: 425px) {
+    #resume h1 {
+        font-size: 1.8em;
+    }
+
+    #education h3, #skills h3 {
+        font-size: 1em;
+    }
+
+    .timeline-content h4 {
+        font-size: 0.8em;
+    }
+
+    .timeline-content p {
+        font-size: 0.6em;
+    }
+
+    #aa {
+        grid-template-columns: 1fr;
+    }
+
+    #img_list1, #img_list2, #img_list3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #img_list3 li:first-child, #img_list3 li:last-child {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    #img_list3 li:nth-child(2) {
+        margin-top: 20px;
+    }
+}
+
+/* For Mobile Medium (375px) */
+@media all and (max-width: 375px) {
+    #resume h1 {
+        font-size: 1.6em;
+    }
+
+    #education h3, #skills h3 {
+        font-size: 0.9em;
+    }
+
+    .timeline-content h4 {
+        font-size: 0.75em;
+    }
+
+    .timeline-content p {
+        font-size: 0.55em;
+    }
+
+    #aa {
+        grid-template-columns: 1fr;
+    }
+
+    #img_list1, #img_list2, #img_list3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #img_list3 li:first-child, #img_list3 li:last-child {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    #img_list3 li:nth-child(2) {
+        margin-top: 15px;
+    }
+}
+
+/* For Mobile Small (320px) */
+@media all and (max-width: 320px) {
+    #resume h1 {
+        font-size: 1.4em;
+    }
+
+    #education h3, #skills h3 {
+        font-size: 0.8em;
+    }
+
+    .timeline-content h4 {
+        font-size: 0.7em;
+    }
+
+    .timeline-content p {
+        font-size: 0.5em;
+    }
+
+    #aa {
+        grid-template-columns: 1fr;
+    }
+
+    #img_list1, #img_list2, #img_list3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #img_list3 li:first-child, #img_list3 li:last-child {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    #img_list3 li:nth-child(2) {
+        margin-top: 10px;
+    }
+}
+
+

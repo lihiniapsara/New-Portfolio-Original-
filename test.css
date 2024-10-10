@@ -1,0 +1,166 @@
+/* Base Styles (For all devices by default) */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-right: 15px;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Mobile Small (320px) */
+@media only screen and (max-width: 320px) {
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .project-item {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+/* Mobile Medium (375px) */
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    img {
+        width: 80%;
+    }
+
+    .project-item {
+        font-size: 15px;
+        padding: 15px;
+    }
+}
+
+/* Mobile Large (425px) */
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        padding: 40px;
+    }
+
+    img {
+        width: 75%;
+    }
+
+    .project-item {
+        font-size: 16px;
+        padding: 20px;
+    }
+}
+
+/* Tablet (768px) */
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links {
+        flex-direction: row;
+    }
+
+    .hero-section {
+        flex-direction: row;
+        padding: 60px;
+    }
+
+    .project-item {
+        font-size: 18px;
+        padding: 30px;
+    }
+}
+
+/* Laptop (1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    header {
+        justify-content: space-between;
+    }
+
+    .hero-section {
+        flex-direction: row;
+        padding: 70px;
+    }
+
+    .project-item {
+        font-size: 20px;
+        padding: 40px;
+    }
+}
+
+/* Laptop Large (1440px) */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    header {
+        justify-content: space-between;
+    }
+
+    .hero-section {
+        flex-direction: row;
+        padding: 80px;
+    }
+
+    .project-item {
+        font-size: 22px;
+        padding: 50px;
+    }
+}
+
+/* Larger Screens (1441px and above) */
+@media only screen and (min-width: 1441px) {
+    header {
+        justify-content: space-between;
+    }
+
+    .hero-section {
+        flex-direction: row;
+        padding: 100px;
+    }
+
+    .project-item {
+        font-size: 24px;
+        padding: 60px;
+    }
+}
+

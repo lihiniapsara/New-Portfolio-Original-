@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3463bd06-528a-4887-b402-b1d247e39952" name="Changes" comment="All Section Tab Size">
+    <list default="true" id="3463bd06-528a-4887-b402-b1d247e39952" name="Changes" comment="Update contact,header_footer and home css">
+      <change afterPath="$PROJECT_DIR$/test.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/assignment.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/assignment.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/contact.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/header_footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/header_footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/project.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/resume.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/resume.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +93,9 @@
       <workItem from="1727776644829" duration="5965000" />
       <workItem from="1727852355534" duration="2558000" />
       <workItem from="1728098238793" duration="211000" />
-      <workItem from="1728120437399" duration="3172000" />
+      <workItem from="1728120437399" duration="4198000" />
+      <workItem from="1728214946164" duration="2835000" />
+      <workItem from="1728309937280" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="Home section">
       <option name="closed" value="true" />
@@ -288,7 +295,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727776164807</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Update contact,header_footer and home css">
+      <option name="closed" value="true" />
+      <created>1728214885152</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1728214885152</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Update contact,header_footer and home css">
+      <option name="closed" value="true" />
+      <created>1728214904861</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1728214904862</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,6 +340,7 @@
     <MESSAGE value="Add Assignment in CSS" />
     <MESSAGE value="Update Resume Section" />
     <MESSAGE value="All Section Tab Size" />
-    <option name="LAST_COMMIT_MESSAGE" value="All Section Tab Size" />
+    <MESSAGE value="Update contact,header_footer and home css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update contact,header_footer and home css" />
   </component>
 </project>
