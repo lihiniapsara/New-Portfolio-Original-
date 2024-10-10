@@ -85,3 +85,35 @@
         font-size: 2.2em; /* Slightly smaller heading */
     }
 }
+
+@media all and (max-width: 768px) {
+    #contact {
+        grid-template-columns: 1fr; /* Set to one column */
+        padding: 40px 20px;
+    }
+
+    #contact img {
+        display: none; /* Hide image */
+    }
+
+    #contact form {
+        max-width: 400px; /* Reduce the form width */
+    }
+
+    #contact form input,
+    #contact form textarea {
+        font-size: 1em;
+        padding: 12px;
+    }
+
+    #contact form .btn {
+        width: 140px;
+        font-size: 1.1rem;
+    }
+
+    #contact h1 {
+        font-size: 1.8em;
+        margin-bottom: -21px;
+        margin-right: -473px;
+    }
+}
