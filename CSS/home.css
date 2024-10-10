@@ -178,3 +178,23 @@
     background: #ff6347;
     color: #fff;
 }
+
+
+@media all and (max-width: 1250px) {
+    .hero-img img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .name {
+        font-size: 1.5em;
+    }
+
+    .greet {
+        font-size: 3.5em;
+    }
+
+    .designation {
+        font-size: 2.5em;
+    }
+}
