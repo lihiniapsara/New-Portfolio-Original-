@@ -87,8 +87,8 @@
 
 <section class="hero-section" id="home">
     <div class="hero-img">
-        <img src="assets/images/memphis-element-abstract-shape-design-free-png.webp" alt="Lihini Apsara" class="back-img" />
-        <img src="assets/images/me-removebg-preview.png" alt="Lihini Apsara" class="main-img" />
+        <img src="image/memphis-element-abstract-shape-design-free-png.webp" alt="Lihini Apsara" class="back-img" />
+        <img src="image/me-removebg-preview.png" alt="Lihini Apsara" class="main-img" />
     </div>
     <div class="hero">
         <p class="greet">Hello, I'm</p>
@@ -301,7 +301,8 @@
 
 <main id="contact">
 
-    <h1>Chat With Me</h1><br>
+    <h1>Chat With Me</h1>
+    <br>
     <br>
     <br>
     <br>
@@ -340,8 +341,29 @@
     </ul>
 </footer>
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
+    const nav = document.querySelector('.menu');
+    nav.classList.add('hidden');
+    document.querySelector('.collapse-icon').addEventListener('click', () => {
+        if (nav.classList.contains('hidden')) {
+            nav.classList.remove('hidden');
+            nav.classList.add('menu-transition');
+        } else {
+            nav.classList.add('hidden');
+            nav.classList.remove('menu-transition');
+        }
+    });
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('.typed', {
+        strings: ['Web Developer', 'Java Developer', 'Test Developer','Student'],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+    });
+</script><script>
     AOS.init();
 </script>
 </body>
