@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    body {
+        background: #339699;
+        /*height: 1000%;*/
+        /*width: 700px;*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+
+    #cercle {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /*border: white solid 15px;*/
+        border-radius: 100%;
+        background: dimgray;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+        transition-duration: 2s;
+        /*border-top-color: #ff253a;*/
+    }
+
+
+    p {
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+
+
+
+    #cercle:before {
+        position: absolute;
+        content: "";
+        border: 10px solid white;
+        border-top-color: red;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        border-radius: 100%;
+
+    }
+
+    #cercle:hover::before {
+        transition-duration: 2s;
+        transform: rotate(360deg);
+
+    }
+
+
+</style>
+<body>
+<section>
+    <div id="cercle">
+        <p>RWAD</p>
+    </div>
+</section>
+</body>
+
+</html>
