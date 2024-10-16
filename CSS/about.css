@@ -57,106 +57,7 @@
 }
 
 
-@media all and (max-width: 1024px) {
-    /* Laptop */
-    #about h2 {
-        font-size: 2em;
-    }
-    .profile img {
-        width: 130px;
-        height: 130px;
-    }
-    .profile h1 {
-        font-size: 2em;
-    }
-    .profile h3 {
-        font-size: 1.2em;
-    }
-    .profile p {
-        font-size: 1.1em;
-    }
-    .buttons .btn {
-        padding: 8px 25px;
-    }
-}
-
-@media all and (max-width: 768px) {
-    /* Tablet */
-    #about h2 {
-        font-size: 1.8em;
-    }
-    .profile img {
-        width: 110px;
-        height: 110px;
-    }
-    .profile h1 {
-        font-size: 1.8em;
-    }
-    .profile h3 {
-        font-size: 1.1em;
-    }
-    .profile p {
-        font-size: 1em;
-    }
-    .buttons .btn {
-        padding: 7px 20px;
-    }
-}
-
-@media all and (max-width: 425px) {
-    /* Mobile Large */
-    #about h2 {
-        font-size: 1.6em;
-    }
-    .profile img {
-        width: 100px;
-        height: 100px;
-    }
-    .profile h1 {
-        font-size: 1.5em;
-    }
-    .profile h3 {
-        font-size: 1em;
-    }
-    .profile p {
-        font-size: 0.9em;
-        padding: 0 20px;
-    }
-    .buttons .btn {
-        font-size: 0.9em;
-        padding: 6px 15px;
-    }
-    .hero{
-        margin-top: 40px;
-    }
-}
-
-@media all and (max-width: 375px) {
-    /* Mobile Medium */
-    #about h2 {
-        font-size: 1.4em;
-    }
-    .profile img {
-        width: 90px;
-        height: 90px;
-    }
-    .profile h1 {
-        font-size: 1.4em;
-    }
-    .profile h3 {
-        font-size: 0.9em;
-    }
-    .profile p {
-        font-size: 0.85em;
-    }
-    .buttons .btn {
-        font-size: 0.85em;
-        padding: 5px 12px;
-        width: 84px;
-    }
-}
-
-@media all and (max-width: 365px) {
+@media all and (max-width: 370px) {
     .buttons {
         display: flex;
         flex-direction: column;
@@ -165,20 +66,24 @@
     }
 
     .buttons a {
-        width: 165px; /* Adjust the width if needed */
+        width: 153px; /* Adjust the width if needed */
     }
 
-@media all and (max-width: 320px) {
-    /* Mobile Small */
-    .buttons {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px; /* Add space between the buttons */
+    @media all and (max-width: 320px) {
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px; /* Add space between the buttons */
+        }
+
+        .buttons a {
+            width: 165px; /* Adjust the width if needed */
+        }
     }
 
-    .buttons a {
-        width: 165px; /* Adjust the width if needed */
-    }
+    /* --------------------*/
+
+    /* --resume-styles-- */
 }
-}
+

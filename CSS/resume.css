@@ -4,18 +4,20 @@
     text-align: center;
 }
 
- #resume h1{
+#resume h1{
     color: white;
     font-size: 3em;
      text-align: center;
+    background-color: #1c1c1c;
+
 }
 
- #education h3 {
+#education h3 {
     font-size: 1.5em;
     margin-bottom: 40px;
     color: #FFD700;
 }
- #skills{
+#skills{
      padding: 60px 20px;
      background: #1c1c1c;
      text-align: center;
@@ -122,72 +124,14 @@
 }
 
 
-/* For Tablet */
-@media all and (max-width: 768px) {
-    #resume h1 {
-        font-size: 2em;
-    }
-
-    #education h3, #skills h3 {
-        font-size: 1.1em;
-    }
-
-    .timeline-content h4 {
-        font-size: 0.85em;
-    }
-
-    .timeline-content p {
-        font-size: 0.7em;
-    }
-
-    #aa {
-        grid-template-columns: 1fr;
-    }
-
-    #img_list1, #img_list2, #img_list3 {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #img_list3 li:first-child, #img_list3 li:last-child {
-        margin-left: 0;
-        margin-top: 20px;
-    }
-
-    #img_list3 li:nth-child(2) {
-        margin-top: 20px;
-    }
-}
-
-@media all and (max-width: 655px){
-    #aa{
-        display: block;
-    }
-}
-@media all and (max-width: 770px) {
+@media all and (max-width: 655px) {
     #aa {
         display: block;
     }
+}
 
-    #img_list1, #img_list2, #img_list3 {
-        list-style-type: none;
-        display: flex;
-        flex-direction: row; /* Align items horizontally */
-        justify-content: space-evenly; /* Center the items */
-        padding: 0;
-        margin: 0;
-    }
-
-    #img_list3{
-        margin-top: 20px;
-    }
-
-    #img_list1 li, #img_list2 li, #img_list3 li {
-        margin: 0 10px; /* Add space between the items */
-    }
 @media all and (max-width: 425px) {
     #aa {
         display: block;
     }
-}
 }
