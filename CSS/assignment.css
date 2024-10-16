@@ -1,0 +1,130 @@
+
+#as_01 p{
+    margin-bottom: auto;
+    margin-top: auto;
+}
+#as_02 p{
+    margin-bottom: auto;
+    margin-top: auto;
+}
+#as_03 p{
+    margin-bottom: auto;
+    margin-top: auto;
+}
+#as_04 p{
+    margin-bottom: auto;
+    margin-top: auto;
+}
+#as_05 p{
+    margin-bottom: auto;
+    margin-top: auto;
+}
+#as_06 p{
+    margin-bottom: auto;
+    margin-top: auto;
+}
+#as_01 {
+    margin-bottom: auto;
+    margin-top: auto;
+    border-radius: 100%;
+    background: -webkit-linear-gradient(#d2c211, #ffffff);
+    width: 100px;
+    aspect-ratio: 1/1;
+    text-align: center;
+    font-weight: bold;
+}
+
+#as_02 {
+    margin-bottom: auto;
+    margin-top: auto;
+    border-radius: 100%;
+    background: -webkit-linear-gradient(#d2c211, #ffffff);
+    width: 100px;
+    aspect-ratio: 1/1;
+    text-align: center;
+    font-weight: bold;
+
+}
+#as_03 {
+    margin-bottom: auto;
+    margin-top: auto;
+    border-radius: 100%;
+    background: -webkit-linear-gradient(#d2c211, #ffffff);
+    width: 100px;
+    aspect-ratio: 1/1;
+    text-align: center;
+    font-weight: bold;
+
+}
+#as_04 {
+    margin-bottom: auto;
+    margin-top: auto;
+    border-radius: 100%;
+    background: -webkit-linear-gradient(#d2c211, #ffffff);
+    width: 100px;
+    aspect-ratio: 1/1;
+    text-align: center;
+    font-weight: bold;
+
+}
+#as_05 {
+    margin-bottom: auto;
+    margin-top: auto;
+    border-radius: 100%;
+    background: -webkit-linear-gradient(#d2c211, #ffffff);
+    width: 100px;
+    aspect-ratio: 1/1;
+    text-align: center;
+    font-weight: bold;
+
+}
+#as_06 {
+    margin-bottom: auto;
+    margin-top: auto;
+    border-radius: 100%;
+    background: -webkit-linear-gradient(#d2c211, #ffffff);
+    width: 100px;
+    aspect-ratio: 1/1;
+    text-align: center;
+    font-weight: bold;
+
+}
+#assignment h2{
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 70px;
+    margin-top: 55px;
+}
+
+/* General Styles for All Devices */
+#assignment {
+    padding: 60px 20px;
+    background: #121212;
+    text-align: center;
+}
+
+#assignment h2 {
+    font-size: 2.5em;
+    margin-bottom: 70px;
+    margin-top: 55px;
+    color: white;
+}
+
+#assignment div {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px;
+}
+
+.c01{
+    display: flex;
+    flex-direction: column;
+}
+
+.c02{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
