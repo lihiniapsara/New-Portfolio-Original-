@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>case 01</title>
+    <link rel="stylesheet" href="normalize.css">
+</head>
+
+
+<style>
+
+    body{
+        overflow: hidden;
+    }
+
+    section:first-child>div{
+        background-color: red;
+        width: 50%;
+        height: 50%;
+        position: absolute;
+        left: 0;
+    }
+
+    section:nth-child(2)>div{
+        background-color: green;
+        width: 50%;
+        height: 50%;
+        position: absolute;
+        right: 0;
+    }
+
+    section:nth-child(3)>div{
+        background-color: orange;
+        width: 50%;
+        height: 50%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    section:nth-child(4)>div{
+        background-color: deeppink;
+        width: 50%;
+        height: 50%;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    section:first-child>div>div{
+        width: 10vw;
+        aspect-ratio: 1/1;
+        border-radius: 100%;
+        background-color: white;
+        position: absolute;
+
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    section:nth-child(2)>div>div{
+        width: 10vw;
+        aspect-ratio: 1/1;
+        border-radius: 100%;
+        background-color: white;
+        position: absolute;
+
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    section:nth-child(3)>div>div{
+        width: 10vw;
+        aspect-ratio: 1/1;
+        border-radius: 100%;
+        background-color: white;
+        position: absolute;
+
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    section:nth-child(4)>div>div{
+        width: 10vw;
+        aspect-ratio: 1/1;
+        border-radius: 100%;
+        background-color: white;
+        position: absolute;
+
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    section:first-child>div>div>div{
+        width: 5vw;
+        aspect-ratio: 1/1;
+        background-color: red;
+        position: absolute;
+
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    section:nth-child(2)>div>div>div{
+        width: 5vw;
+        aspect-ratio: 1/1;
+        background-color: red;
+        position: absolute;
+
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    section:nth-child(3)>div>div>div{
+        width: 5vw;
+        aspect-ratio: 1/1;
+        background-color: red;
+        position: absolute;
+
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    section:nth-child(4)>div>div>div{
+        width: 5vw;
+        aspect-ratio: 1/1;
+        background-color: red;
+        position: absolute;
+
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    section:nth-child(5)>div:first-child{
+        width: 10vw;
+        aspect-ratio: 1/1;
+        background-color: white;
+        position: absolute;
+
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    section:nth-child(5)>div:nth-child(2){
+        width: 7vw;
+        aspect-ratio: 1/1;
+        background-color: red;
+        position: absolute;
+        border-radius: 100%;
+
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .corner {
+        background: white;
+        width: 15vw;
+        height: 15vw;
+        position: absolute;
+        border-radius: 100%;
+    }
+
+    #corner1 {
+        top: calc(-15vw/2);
+        left: calc(-15vw/2);
+    }
+    #corner2 {
+        right: calc(-15vw/2);
+        top: calc(-15vw/2);
+    }
+    #corner3 {
+        right: 0;
+        left: 0;
+        top: calc(-15vw/2);
+        margin: auto;
+    }
+    #corner4 {
+        bottom: calc(-15vw/2);
+        left: calc(-15vw/2);
+    }
+    #corner5 {
+        bottom: calc(-15vw/2);
+        right: calc(-15vw/2);
+    }
+    #corner6 {
+        bottom: calc(-15vw/2);
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+    section:nth-child(5)>div{
+        width: 10vw;
+        height: 10vw;
+        background-color: white;
+        position: absolute;
+
+        right: 0;
+        bottom: 0;
+        left: 0;
+        top: 0;
+        margin: auto;
+    }
+
+    section:nth-child(5)>div>div{
+        width: 7vw;
+        height: 7vw;
+        background-color: red;
+        border-radius: 100%;
+        position: absolute;
+
+        right: 0;
+        bottom: 0;
+        left: 0;
+        top: 0;
+        margin: auto;
+    }
+
+</style>
+
+<body>
+    <section>
+        <div>
+            <div>
+                <div></div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <div>
+                <div></div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <div>
+                <div></div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <div>
+                <div></div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <div></div>
+        </div>
+    </section>
+
+    <div id="corner1" class="corner"></div>
+    <div id="corner2" class="corner"></div>
+    <div id="corner3" class="corner"></div>
+    <div id="corner4" class="corner"></div>
+    <div id="corner5" class="corner"></div>
+    <div id="corner6" class="corner"></div>
+
+
+
+
+</body>
+</html>

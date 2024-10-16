@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Assignment 03</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
 </head>
 <style>
     body{
@@ -16,8 +18,8 @@
     }
 
     .card{
-        width: 266px;
-        aspect-ratio: 1/1;
+        width: 174px;
+        height: 161px ;
         border-radius: 15%;
         text-align: center;
         padding: 20px;
@@ -27,6 +29,7 @@
     }
     h2{
         margin-top: 10px;
+        font-weight: bold;
     }
     .ass_button{
         display: inline-block;
@@ -44,7 +47,7 @@
         */
         margin-bottom: 10px
     }
-    .ass_button{
+    .ass_button:hover{
         background-color: #887877;
         color: white;
         border-color: #758788;
@@ -55,17 +58,76 @@
         color: white;
 
     }
+    .main{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+  /*  footer .social-icons {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }*/
+
+
+    .git{
+        color: #fff;
+        font-size: 3em;
+        transition: color 0.3s;
+        position: absolute;
+        top: 44px;
+        right: 80px;
+
+    }
+
+    .git:hover {
+        color: #f16f04;
+    }
 </style>
 <body>
 <h1>Assignment 03</h1>
-<div class="card">
-    <h2>Case 01</h2>
-    <p> 01. Use the whole screen for the designing.<br>
-    02. Use only Absolute and Relative Positions.<br>
-    03. Apply suitable measurement units.<br>
-    04. The design cannot be changed when the browser resize.<br>
-    05. No any images are allowed.</p>
-    <div class="asbutton"><a href="" class="ass_button">View</a></div>
+<a href="https://github.com/lihiniapsara/Assingment-03/tree/main/pages" class="git"><i class="fab fa-github"></i></a>
+
+<div >
+    <div class="main">
+        <div class="card">
+            <h2>Case 01</h2>
+            <p> Use only Absolute and Relative Positions.</p><br>
+            <div class="asbutton"><a href="../asgcases/case_01-case03.html" class="ass_button">View</a></div>
+        </div>
+        <div class="card">
+            <h2>Case 02</h2>
+            <p> Use only Absolute,Relative and <br>Box-Model to style</p>
+            <div class="asbutton"><a href="../asgcases/case_02-case03.html" class="ass_button">View</a></div>
+        </div>
+        <div class="card">
+            <h2>Case 03</h2>
+            <p> Use only Absolute,Relative and Fixed positions</p>
+            <div class="asbutton"><a href="../asgcases/case_03-case03.html" class="ass_button">View</a></div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="card">
+            <h2>Case 04</h2>
+            <p> Use only Absolute,Relative and Sticky positions</p>
+            <div class="asbutton"><a href="../asgcases/case_04-case03.html" class="ass_button">View</a></div>
+        </div>
+        <div class="card">
+            <h2>Case 05</h2>
+            <p>Use only Grid Layout</p>
+            <br>
+            <br>
+            <div class="asbutton"><a href="../asgcases/case_05-case03.html" class="ass_button">View</a></div>
+        </div>
+        <div class="card">
+            <h2>Case 06</h2>
+            <p> Use only Grid Layout</p>
+            <br>
+            <br>
+            <div class="asbutton"><a href="../asgcases/case_06-case03.html" class="ass_button">View</a></div>
+        </div>
+    </div>
 </div>
 
 

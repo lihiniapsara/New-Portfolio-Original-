@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            background-color: blue;
+        }
+
+      /*  div{
+            width: 400px;
+            height: 400px;
+            border-radius: 100%;
+            background: grey;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+        }
+        div>div{
+            position: absolute;
+            width: 90%;
+            height: 90%;
+            background-color: #4c4c4c;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        div:nth-child(2){
+
+        }*/
+
+        div{
+            width: 200px;
+            aspect-ratio: 1/1;
+            border-radius: 100%;
+            position: absolute;
+            background: gray;
+
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        div>h1{
+            width: max-content;
+            height: max-content;
+
+            color: white;
+
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            font-weight: bold;
+            font-size: 2em;
+        }
+
+        div:before{
+            content: "";
+            border: 10px solid white;
+            position: absolute;
+
+            border-radius: 100%;
+            border-top-color: red;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+
+        }
+
+        div:hover::before{
+            transform: rotate(360deg);
+            transition-duration:2s;
+
+        }
+
+    </style>
+</head>
+<body>
+<div>
+    <h1>RWAD</h1>
+</div>
+
+</body>
+</html>
+
