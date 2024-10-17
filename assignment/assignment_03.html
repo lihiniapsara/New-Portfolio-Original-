@@ -62,6 +62,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+        flex-wrap: wrap;
     }
   /*  footer .social-icons {
         list-style: none;
@@ -84,12 +85,36 @@
     .git:hover {
         color: #f16f04;
     }
+    @media all and (max-width: 760px){
+        h1{
+           font-size:2em;
+        }
+        .git{
+            top: 73px;
+            right: 20px;
+        }
+    }
+    @media all and (max-width: 330px){
+        .card{
+            height: 150px;
+        }
+    }
+    @media all and (max-width: 328px) {
+        .card {
+            height: 180px;
+        }
+    }
+    @media all and (max-width: 309px) {
+        .card {
+            height: 200px;
+        }
+    }
 </style>
 <body>
 <h1>Assignment 03</h1>
 <a href="https://github.com/lihiniapsara/Assingment-03/tree/main/pages" class="git"><i class="fab fa-github"></i></a>
 
-<div >
+<div>
     <div class="main">
         <div class="card">
             <h2>Case 01</h2>

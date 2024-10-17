@@ -89,12 +89,7 @@
     font-weight: bold;
 
 }
-#assignment h2{
-    text-align: center;
-    font-size: 2.5em;
-    margin-bottom: 70px;
-    margin-top: 55px;
-}
+
 
 /* General Styles for All Devices */
 #assignment {
@@ -105,15 +100,17 @@
 
 #assignment h2 {
     font-size: 2.5em;
-    margin-bottom: -173px;
+    margin-bottom: -103px;
     margin-top: 55px;
     color: white;
+    text-align: center;
 }
 
 #assignment div {
     display: flex;
     justify-content: space-around;
-    margin: 80px;
+    margin: 64px;
+    flex-wrap: wrap;
 }
 
 .c01{

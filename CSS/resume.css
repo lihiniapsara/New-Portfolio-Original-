@@ -123,15 +123,25 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
-
-@media all and (max-width: 655px) {
-    #aa {
+@media all and (max-width: 900px){
+    #aa{
         display: block;
     }
-}
 
-@media all and (max-width: 425px) {
-    #aa {
-        display: block;
+    #img_list3 li:first-child{
+        margin-left: 0;
     }
+
+    #img_list3 li:last-child{
+        margin-left: 0;
+    }
+
+    #img_list3 li:nth-child(2){
+        margin-top: 0;
+        margin-left: 0;
+    }
+    #img_list3{
+        justify-content: space-evenly;
+    }
+
 }

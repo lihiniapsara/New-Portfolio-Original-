@@ -231,7 +231,7 @@
     }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 650px) {
     .greet {
         font-size: 2.5em; /* Smaller font sizes */
         margin-top: 37px;
