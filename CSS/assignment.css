@@ -1,4 +1,6 @@
-
+#assignment{
+    overflow-x: hidden;
+}
 #as_01 p{
     margin-bottom: auto;
     margin-top: auto;
