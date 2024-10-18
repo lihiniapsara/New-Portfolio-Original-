@@ -2,6 +2,7 @@
     padding: 60px 20px;
     background: #1c1c1c;
     text-align: center;
+    overflow-x: hidden;
 }
 
 #about h2 {
