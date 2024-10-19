@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3463bd06-528a-4887-b402-b1d247e39952" name="Changes" comment="Update assignment.css , assignment_03.html and resume.css">
-      <change beforePath="$PROJECT_DIR$/CSS/assignment.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/assignment.css" afterDir="false" />
+    <list default="true" id="3463bd06-528a-4887-b402-b1d247e39952" name="Changes" comment="Update about&#10; ,contact.css and resume">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment/assignment_01.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/assignment_01.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,25 +36,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.index.html.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/LIHINI/IdeaProjects/database-programming-4/New-Portfolio-Original-/asgcases",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/LIHINI/IdeaProjects/database-programming-4/New-Portfolio-Original-/asgcases&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\LIHINI\IdeaProjects\database-programming-4\New-Portfolio-Original-\asgcases" />
@@ -97,70 +98,8 @@
       <workItem from="1728717795247" duration="1175000" />
       <workItem from="1728878504400" duration="18000" />
       <workItem from="1729088571709" duration="15939000" />
-    </task>
-    <task id="LOCAL-00005" summary="Contact section">
-      <option name="closed" value="true" />
-      <created>1725904246272</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1725904246272</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Footer section">
-      <option name="closed" value="true" />
-      <created>1725904281249</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1725904281249</updated>
-    </task>
-    <task id="LOCAL-00007" summary="New Activity section">
-      <option name="closed" value="true" />
-      <created>1725904324910</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1725904324910</updated>
-    </task>
-    <task id="LOCAL-00008" summary="New Resume section">
-      <option name="closed" value="true" />
-      <created>1725904389994</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1725904389994</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Projects section">
-      <option name="closed" value="true" />
-      <created>1725904483715</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1725904483715</updated>
-    </task>
-    <task id="LOCAL-00010" summary="New Contact section">
-      <option name="closed" value="true" />
-      <created>1725904726514</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1725904726514</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Update Header and Footer">
-      <option name="closed" value="true" />
-      <created>1725941401765</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1725941401765</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Update Contact">
-      <option name="closed" value="true" />
-      <created>1725953392697</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1725953392697</updated>
+      <workItem from="1729176446591" duration="13622000" />
+      <workItem from="1729310978455" duration="2245000" />
     </task>
     <task id="LOCAL-00013" summary="Update About">
       <option name="closed" value="true" />
@@ -488,16 +427,77 @@
       <option name="project" value="LOCAL" />
       <updated>1729165508120</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Update assignment.css">
+      <option name="closed" value="true" />
+      <created>1729225230572</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1729225230574</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Update assignment.css">
+      <option name="closed" value="true" />
+      <created>1729225458656</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1729225458656</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Update home.css">
+      <option name="closed" value="true" />
+      <created>1729225611799</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1729225611799</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Update home.css">
+      <option name="closed" value="true" />
+      <created>1729225704191</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1729225704191</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Update home.css">
+      <option name="closed" value="true" />
+      <created>1729225923092</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1729225923092</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Update home.css">
+      <option name="closed" value="true" />
+      <created>1729233334393</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1729233334393</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Update home.css">
+      <option name="closed" value="true" />
+      <created>1729233978359</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1729233978359</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Update about&#10; ,contact.css and resume">
+      <option name="closed" value="true" />
+      <created>1729240615659</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1729240615660</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update hero section" />
-    <MESSAGE value="Add img" />
-    <MESSAGE value="Update Header" />
     <MESSAGE value="Update Home" />
     <MESSAGE value="Update Home(1250px)" />
     <MESSAGE value="Update Home(940px)" />
@@ -520,6 +520,9 @@
     <MESSAGE value="Update about and resume section css" />
     <MESSAGE value="Update contact section css" />
     <MESSAGE value="Update assignment.css , assignment_03.html and resume.css" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update assignment.css , assignment_03.html and resume.css" />
+    <MESSAGE value="Update assignment.css" />
+    <MESSAGE value="Update home.css" />
+    <MESSAGE value="Update about&#10; ,contact.css and resume" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update about&#10; ,contact.css and resume" />
   </component>
 </project>
