@@ -1,0 +1,83 @@
+#about {
+    padding: 60px 20px;
+    background: #f9f9f9; /* Light background */
+    text-align: center;
+    overflow-x: hidden;
+}
+
+#about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333; /* Dark text */
+}
+
+.profile {
+    margin-top: 20px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #ff6347; /* Tomato border for vibrancy */
+}
+
+.profile h1 {
+    font-size: 2.5em;
+    margin: 15px 0;
+    color: #121212; /* Dark text */
+}
+
+.profile h3 {
+    color: #ff6347; /* Tomato color */
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.profile p {
+    font-size: 1.2em;
+    color: #666; /* Darker gray for readability */
+    margin-bottom: 50px;
+}
+
+.buttons .btn {
+    margin: 10px;
+    padding: 10px 30px;
+    background: #ff6347; /* Vibrant button background */
+    color: #fff; /* White text */
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+}
+
+.buttons .btn:hover {
+    background: #ffd700; /* Golden hover */
+    color: #121212; /* Dark text */
+}
+
+@media all and (max-width: 370px) {
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px; /* Add space between the buttons */
+    }
+
+    .buttons a {
+        width: 153px; /* Adjust the width if needed */
+    }
+
+    @media all and (max-width: 320px) {
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px; /* Add space between the buttons */
+        }
+
+        .buttons a {
+            width: 165px; /* Adjust the width if needed */
+        }
+    }
+}

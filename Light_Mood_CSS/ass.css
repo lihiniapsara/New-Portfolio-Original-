@@ -1,0 +1,75 @@
+/* General Styles for All Devices */
+#assignment {
+    padding: 60px 20px;
+    background: #f9f9f9; /* Light background */
+    text-align: center;
+}
+
+#assignment h2 {
+    font-size: 2.5em;
+    margin-bottom: -21px;
+    margin-top: 55px;
+    color: #333; /* Darker text */
+    text-align: center;
+}
+
+#assignment div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.c01, .c02 {
+    display: flex;
+    flex-direction: column;
+}
+
+.c01 a, .c02 a {
+    text-decoration: none;
+    color: #333; /* Darker text for visibility */
+}
+
+/* Circular Assignment Items */
+#as_01, #as_02, #as_03, #as_04, #as_05, #as_06 {
+    margin-bottom: 0;
+    margin-top: auto;
+    border-radius: 100%;
+    background: linear-gradient(#ffd700, #fff); /* Gold to white gradient */
+    width: 150px;
+    aspect-ratio: 1/1;
+    text-align: center;
+    font-weight: bold;
+    color: #333; /* Dark text */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+#as_01 p, #as_02 p, #as_03 p, #as_04 p, #as_05 p, #as_06 p {
+    margin: auto;
+}
+
+@media all and (max-width: 997px) {
+    .c01 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media all and (max-width: 869px) {
+    #as_01, #as_02, #as_03, #as_04, #as_05, #as_06 {
+        width: 100px; /* Smaller circles for smaller screens */
+    }
+}
+
+@media (max-width: 425px) {
+    #assignment div {
+        max-width: 100%; /* Use full width */
+        padding: 10px;
+    }
+
+    .c01 a, .c02 a {
+        padding: 10px; /* Reduce padding for smaller screens */
+        font-size: 14px; /* Adjust font size */
+    }
+}

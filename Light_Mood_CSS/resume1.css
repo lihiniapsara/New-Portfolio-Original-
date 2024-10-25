@@ -1,0 +1,141 @@
+#resume {
+    overflow-x: hidden;
+}
+
+#education {
+    padding: 60px 20px;
+    background: #f9f9f9; /* Light background */
+    text-align: center;
+}
+
+#resume h1 {
+    color: #333; /* Darker text */
+    font-size: 3em;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+#education h3 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+    color: #ff6347; /* Tomato color */
+}
+
+#skills {
+    padding: 60px 20px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+#skills h3 {
+    font-size: 1.5em;
+    color: #ff6347;
+    margin-bottom: 46px;
+}
+
+#skills h4 {
+    font-size: 1em;
+    margin-bottom: 40px;
+    color: #333; /* Dark text */
+}
+
+#img_list1, #img_list2 {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+#img_list3 {
+    list-style-type: none;
+    display: flex;
+    margin-top: 50px;
+}
+
+.timeline {
+    position: relative;
+    padding-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-left: 2px solid #ff6347;
+    z-index: 1;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-dot {
+    position: absolute;
+    left: -13px;
+    width: 20px;
+    height: 20px;
+    background-color: #ff6347;
+    border-radius: 50%;
+    top: 0;
+}
+
+.timeline-content {
+    background: #fff; /* White background for content */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.timeline-content h4 {
+    font-size: 1em;
+    color: #333; /* Dark text */
+    margin-bottom: 5px;
+}
+
+.timeline-content p {
+    font-size: 0.8em;
+    color: #666; /* Medium gray text */
+}
+
+#img_list3 li:first-child {
+    margin-left: 197px;
+}
+
+#img_list3 li:last-child {
+    margin-left: 38px;
+}
+
+#img_list3 li:nth-child(2) {
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+#aa {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media all and (max-width: 900px) {
+    #aa {
+        display: block;
+    }
+
+    #img_list3 li:first-child {
+        margin-left: 0;
+    }
+
+    #img_list3 li:last-child {
+        margin-left: 0;
+    }
+
+    #img_list3 li:nth-child(2) {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    #img_list3 {
+        justify-content: space-evenly;
+    }
+}
