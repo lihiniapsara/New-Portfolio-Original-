@@ -94,6 +94,10 @@ body {
         border-bottom: 1px solid gainsboro;
     }
 
+    .menu li:nth-child(7) i{
+        margin-left: 10rem;
+    }
+
     .menu li a {
         gap: 10px;
         color: black;
