@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3463bd06-528a-4887-b402-b1d247e39952" name="Changes" comment="Connect light and dark moods" />
+    <list default="true" id="3463bd06-528a-4887-b402-b1d247e39952" name="Changes" comment="Update light mood hamburger menu">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +44,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Calculator&quot;,
@@ -101,7 +105,9 @@
       <workItem from="1729348844851" duration="5262000" />
       <workItem from="1729662024868" duration="757000" />
       <workItem from="1729681054173" duration="5057000" />
-      <workItem from="1729825898580" duration="1767000" />
+      <workItem from="1729825898580" duration="2163000" />
+      <workItem from="1730440311240" duration="4358000" />
+      <workItem from="1730878205135" duration="624000" />
     </task>
     <task id="LOCAL-00015" summary="Final Home CSS">
       <created>1726731618616</created>
@@ -116,14 +122,6 @@
       <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
       <updated>1726731845218</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Add Assignment">
-      <option name="closed" value="true" />
-      <created>1727283741203</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1727283741204</updated>
     </task>
     <task id="LOCAL-00023" summary="Add Assignment in CSS">
       <option name="closed" value="true" />
@@ -493,14 +491,21 @@
       <option name="project" value="LOCAL" />
       <updated>1729827496010</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Update light mood hamburger menu">
+      <option name="closed" value="true" />
+      <created>1729828052065</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1729828052066</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update Home(320px)" />
     <MESSAGE value="Update About(320px)" />
     <MESSAGE value="Update About(365px)" />
     <MESSAGE value="Update Resyme(655px , 425px)" />
@@ -525,6 +530,7 @@
     <MESSAGE value="Add assignment_05.html" />
     <MESSAGE value="Add Light mood" />
     <MESSAGE value="Connect light and dark moods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Connect light and dark moods" />
+    <MESSAGE value="Update light mood hamburger menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update light mood hamburger menu" />
   </component>
 </project>
